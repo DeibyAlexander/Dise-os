@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://unpkg.com/scrollreveal"></script>   
+</head>
+<body>
+    <!-- NAVBAR CREATION -->
+   <header class="header main-title">
+    <nav class="navbar media-icons">
+        <form class=" main-title">
+            <a   href="/Login-Register--main/index.html">Inicio Sesion</a>
+            <a href="/Principal/index.html">Principal</a>
+            <a  href="/SobreNosotros/Final TETRIS PAGINA WEB/index.html">Sobre Nosotros</a>
+            <a href="/rick-and-morty-slider123-main/index.html">Contacto</a>
+            <a  href="/index.html">Ayuda</a>
+        </form>
+
+    </nav>
+    <form action="" class="search-bar main-title">
+       <input type="text"  placeholder="Buscar...">
+       <button><i class='bx bx-search'></i></button>
+    </form>
+   </header>
+    <!-- LOGIN FORM CREATION -->
+    <div class="background main-title"> <video muted autoplay loop src="/Login-Register--main/torii-gate-on-the-river-moewalls.com.mp4" width="100%" height="100%"></video></div>
+    <div class="container " ><video muted autoplay loop src="/Login-Register--main/bart-travel-van-the-simpsons-moewalls.com.mp4"></video>
+        <div class="item">
+            <h2 class="logo info"><i class='bx bxs-user'></i>BitterBit</h2>
+            <div class="text-item" >
+                <h2 class="info" >Bienvenido! <br><span>
+                    Disfruta de la web!
+                </span></h2>
+                <p class="info">Aqui puedes ver un ejemplo de como funciona un ingraso y registro a la cuenta de X persona</p>
+                <div class="social-icon media-icons">
+                    <a class="icon" href="#"><i class='bx bxl-facebook'></i></a>
+                    <a class="media-icons" href="#"><i class='bx bxl-twitter'></i></a>
+                    <a class="media-icons" href="#"><i class='bx bxl-youtube'></i></a>
+                    <a class="media-icons" href="#"><i class='bx bxl-instagram'></i></a>
+                    <a class="media-icons" href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="login-section">
+            <div class="form-box login">
+                <form action="">
+                    <h2 class="info">Ingresar</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password"  required>
+                        <label>Clave</label>
+                    </div>
+                    <div class="remember-password">
+                        <label for=""><input type="checkbox">Recuerda</label>
+                        <a href="#">Olvidaste tu clave</a>
+                    </div>
+                    <button class="btn">Ingreso</button>
+                    <div class="create-account">
+                        <p>No tienes una cuenta? <a href="#" class="register-link">Ingresa</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form action="">
+
+                    <h2>Ingreso</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label >Nombre de Usuario</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label >Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Clave</label>
+                    </div>
+                    <div class="remember-password">
+                        <label for=""><input type="checkbox">Estoy de acuerdo con los terminos y condiciones</label>
+                    </div>
+                    <button class="btn">Ingreso</button>
+                    <div class="create-account">
+                        <p>Tienes una cuenta? <a href="#" class="login-link">Ingresa</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+     <!-- SIGN UP FORM CREATION -->
+
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+            ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+            ScrollReveal().reveal('.sec-01 .image, .info ', { delay: 600, origin: 'bottom' });
+            ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+            ScrollReveal().reveal('.media-icons i, .container ', { delay: 500, origin: 'top' , interval: 200 });
+
+
+            ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top'}); 
+            ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 }); 
+    </script>
+    <script src="/Login-Register--main/index.js"></script>
+    
+</body>
+
+</html>
